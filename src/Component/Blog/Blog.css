@@ -1,0 +1,42 @@
+.modal-blog .modal,
+.modal-blog .overlay{
+    overflow: scroll;
+}
+.modal-blog .overlay{
+
+}
+.modal-content {
+display: flex;
+flex-wrap: wrap;
+}
+.modal-blog.modal,.modal-content{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    max-width: 70%;
+    margin: auto;
+    margin-bottom: 10%;
+}
+.modal2-img img{
+    margin-top: 15px;
+    border-radius: 16px;
+    width: 650px;
+}
+.modal-blog .modal-content .right,
+.modal-blog .modal-text .left{
+    width: 100%;
+    padding: 0;
+    margin-top: 30px;
+}
+.blog_contact.left,
+.blog_contact .right{
+    margin: 0 25px 0 0 ;
+}
+@media (max-width:768px) {
+  .modal-blog.modal .modal-content{
+      max-width: 90%;
+      margin-bottom: 20%;
+  }
+  
+
+}
